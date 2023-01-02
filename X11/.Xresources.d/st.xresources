@@ -1,0 +1,44 @@
+!-----------
+! st config
+!-----------
+
+! st*font: IBM Plex Mono:size=14
+st*font: Hack Nerd Font:size=14
+
+st*fontalt0: Siji:size=14 
+st*fontalt1: Symbola:size=9:antialias=true:autohint=true
+st*borderpx: 10
+
+!----------
+! extra colors
+!----------
+
+! st*defaultfg: 
+! st*defaultbg:
+! st*defaultcs:
+! st*defaultrcs:
+
+!st*background: FOREGROUND
+!st*cursorColor: BACKGROUND
+!st*defaultbg: #000000
+st*defaultbg: #282a36
+
+! Dracula Xresources palette
+st*foreground: #F8F8F2
+st*background: #282A36
+st*color0:     #000000
+st*color8:     #4D4D4D
+st*color1:     #FF5555
+st*color9:     #FF6E67
+st*color2:     #50FA7B
+st*color10:    #5AF78E
+st*color3:     #F1FA8C
+st*color11:    #F4F99D
+st*color4:     #BD93F9
+st*color12:    #CAA9FA
+st*color5:     #FF79C6
+st*color13:    #FF92D0
+st*color6:     #8BE9FD
+st*color14:    #9AEDFE
+st*color7:     #BFBFBF
+st*color15:    #E6E6E6

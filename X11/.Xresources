@@ -1,0 +1,27 @@
+! ~/.Xresources
+
+!------------
+! Xft config
+!------------
+
+!Xft.dpi: 96
+Xft.dpi: 92 
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcdfilter
+
+! include external colors
+! #include 	".Xresources.d/gruvbox-dark.xresources"
+!#include        ".Xresources.d/gruvbox-dark-soft.xresources"
+!#include 	".Xresources.d/nord.xresources"
+#include ".Xresources.d/dracula.xresources"
+
+! set global alpha
+*.alpha:	0.8
+
+! include app specific
+#include 	".Xresources.d/dwm.xresources"
+#include	".Xresources.d/st.xresources"

@@ -1,0 +1,34 @@
+# Window Decorations
+window:
+  #  decorations: none
+  padding:
+    x: 15
+    y: 5
+
+# Fonts
+font:
+  normal:
+    family: Hack Nerd Font
+    style: Regular
+
+  bold:
+    family: Hack Nerd Font
+    style: Bold
+
+  italic:
+    family: Hack Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: Hack Nerd Font
+    style: Bold Italic
+
+# Point Size
+  size: 16.0
+
+# Import Dracula theme
+import:
+  - ~/dotfiles/alacritty/dracula.yml
+
+# Tranparency
+window.opacity: 1.0 
