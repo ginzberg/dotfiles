@@ -13,3 +13,6 @@ map("n", "<C-h>","<C-w><C-h>", opts)
 map("n", "<C-j>","<C-w><C-j>", opts)
 map("n", "<C-k>","<C-w><C-k>", opts)
 map("n", "<C-l>","<C-w><C-l>", opts)
+
+-- netrw
+map("n", "<leader>pv", ":Ex<CR>", opts)
