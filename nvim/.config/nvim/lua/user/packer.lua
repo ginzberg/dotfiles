@@ -4,7 +4,8 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use 'Mofiqul/dracula.nvim' 
   use 'lilydjwg/colorizer'
-  use 'ryanoasis/vim-devicons'
+  use 'nvim-tree/nvim-web-devicons'
+ -- use 'ryanoasis/vim-devicons'
   use 'nvim-lualine/lualine.nvim'
   use 'kyazdani42/nvim-tree.lua'
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
