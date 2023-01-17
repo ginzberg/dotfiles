@@ -2,5 +2,5 @@
 
 xautolock.sh &
 dunst &
-# picom -b &
+picom &
 dwmblocks &
