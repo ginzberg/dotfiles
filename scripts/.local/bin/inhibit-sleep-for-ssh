@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo systemd-inhibit --what sleep --why "Do not sleep while $SSH_TTY session is active" sleep infinity &
+INHIBIT_PID=$!
+
+if [ -z "$SSH_ORIGINAL_COMMAND" ]; then
+  $SHELL
+else
+  $SSH_ORIGINAL_COMMAND
+fi
+sudo kill $INHIBIT_PID
