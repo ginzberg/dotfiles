@@ -2,8 +2,8 @@
 
 # Monitors
 xset dpms 0 0 300 
-## monitors.sh &
-monitors-portrait-240.sh
+monitors.sh &
+# monitors-portrait-240.sh &
 
 # Cursor
 xsetroot -cursor_name left_ptr &
