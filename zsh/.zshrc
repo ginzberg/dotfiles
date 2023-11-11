@@ -121,8 +121,7 @@ alias dallas="ssh rallen@dal.spawnfrag.com"
 alias brain="ssh root@brain.local"
 alias gnzarch="ssh rallen@gnzarch"
 alias pacman="sudo pacman"
-alias apt="sudo apt"
-alias nala="sudo nala"
+alias steam="flatpak run com.Valvesoftware.Steam"
 
 # starship
 eval "$(starship init zsh)"
