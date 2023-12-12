@@ -6,9 +6,9 @@
 
 set -u
 
-LOCK_TIME_MIN=5
-NOTIFY_TIME_SEC=5
-KILL_TIME_MIN=10
+LOCK_TIME_MIN=20
+NOTIFY_TIME_SEC=20
+KILL_TIME_MIN=30
 
 # Suspend doesn't work with physlock
 #readonly locker='physlock -d -s'
