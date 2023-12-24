@@ -24,7 +24,7 @@ font:
     style: Bold Italic
 
 # Point Size
-  size: 12.0
+  size: 14.0
 
 # Import Dracula theme
 import:

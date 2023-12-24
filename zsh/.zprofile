@@ -8,7 +8,7 @@ export VISUAL="nvim"
 export EDITOR="nvim"
 # export TERM="xterm-256color"
 # export TERM="vt100"
-export TERMINAL="alacritty"
+export TERMINAL="st"
 
 
 if [ -d "$HOME/.local/bin" ] ; then

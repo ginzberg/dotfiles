@@ -25,7 +25,7 @@ st*defaultbg: #282a36
 
 ! Dracula Xresources palette
 st*foreground: #F8F8F2
-st*background: #282A36
+st*background: #282a36
 st*color0:     #000000
 st*color8:     #4D4D4D
 st*color1:     #FF5555
