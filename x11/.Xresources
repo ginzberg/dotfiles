@@ -4,8 +4,6 @@
 ! Xft config
 !------------
 
-!Xft.dpi: 96
-!Xft.dpi: 92 
 Xft.dpi: 90 
 Xft.antialias: 1
 Xft.hinting: 1
@@ -15,9 +13,6 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 ! include external colors
-! #include 	".Xresources.d/gruvbox-dark.xresources"
-!#include        ".Xresources.d/gruvbox-dark-soft.xresources"
-!#include 	".Xresources.d/nord.xresources"
 #include ".Xresources.d/dracula.xresources"
 
 ! set global alpha
@@ -26,3 +21,4 @@ Xft.lcdfilter: lcddefault
 ! include app specific
 #include 	".Xresources.d/dwm.xresources"
 #include	".Xresources.d/st.xresources"
+#include  ".Xresources.d/dmenu.xresources"

@@ -1,0 +1,29 @@
+!-----------
+! dmenu config
+!-----------
+
+dmenu*font: Hack Nerd Font:size=14
+dmenu.background: #282a36
+dmenu.foreground: #f8f8f2
+dmenu.selbackground: #caa9fa
+dmenu.selforeground: #282a36
+
+! Dracula Xresources palette
+dmenu*foreground: #F8F8F2
+dmenu*background: #282a36
+dmenu*color0:     #000000
+dmenu*color8:     #4D4D4D
+dmenu*color1:     #FF5555
+dmenu*color9:     #FF6E67
+dmenu*color2:     #50FA7B
+dmenu*color10:    #5AF78E
+dmenu*color3:     #F1FA8C
+dmenu*color11:    #F4F99D
+dmenu*color4:     #BD93F9
+dmenu*color12:    #CAA9FA
+dmenu*color5:     #FF79C6
+dmenu*color13:    #FF92D0
+dmenu*color6:     #8BE9FD
+dmenu*color14:    #9AEDFE
+dmenu*color7:     #BFBFBF
+dmenu*color15:    #E6E6E6
