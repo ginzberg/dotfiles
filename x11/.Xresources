@@ -1,17 +1,5 @@
 ! ~/.Xresources
 
-!------------
-! Xft config
-!------------
-
-Xft.dpi: 90 
-Xft.antialias: 1
-Xft.hinting: 1
-Xft.rgba: rgb
-Xft.autohint: 0
-Xft.hintstyle: hintslight
-Xft.lcdfilter: lcddefault
-
 ! include external colors
 #include ".Xresources.d/dracula.xresources"
 
