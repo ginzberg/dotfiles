@@ -18,7 +18,15 @@ Xft.lcdfilter: lcddefault
 ! set global alpha
 *.alpha:	0.8
 
+! set global colors
+*.font: Hack Nerd Font:size=14
+*.normbgcolor: #282a36
+*.normfgcolor: #f8f8f2
+*.selbgcolor: #caa9fa
+*.selfgcolor: #282a36
+
 ! include app specific
+#include  ".Xresources.d/xft.xresources"
 #include 	".Xresources.d/dwm.xresources"
 #include	".Xresources.d/st.xresources"
-#include  ".Xresources.d/dmenu.xresources"
+! #include  ".Xresources.d/dmenu.xresources"

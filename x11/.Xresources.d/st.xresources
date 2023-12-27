@@ -2,23 +2,12 @@
 ! st config
 !-----------
 
-! st*font: IBM Plex Mono:size=14
-st*font: Hack Nerd Font:size=12
-
-!st*fontalt0: Siji:size=14 
-!st*fontalt1: Symbola:size=9:antialias=true:autohint=true
 st*borderpx: 10
-
-!----------
-! extra colors
-!----------
-
 st*defaultfg: #F8F8F2
 st*defaultbg: #282a36
 st*defaultcs: #4d4d4d
 st*defaultrcs: #f8f8f2
 st*cursorColor: #F8F8F2
-st*dracbac: #282a36
 
 ! Dracula Xresources palette
 st*foreground: #F8F8F2
