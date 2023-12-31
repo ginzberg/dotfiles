@@ -2,6 +2,9 @@
 ! st config
 !-----------
 
+st.font:         JetBrainsMono Nerd Font:style:medium:pixelsize=14
+
+
 st*borderpx: 10
 st*defaultfg: #F8F8F2
 st*defaultbg: #282a36

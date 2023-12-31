@@ -4,10 +4,10 @@
 #include ".Xresources.d/dracula.xresources"
 
 ! set global alpha
-*.alpha:	0.8
+*.alpha: 1.0	
 
 ! set global colors
-*.font: Hack Nerd Font:size=14
+*.font: JetBrainsMono Nerd Font:size=14
 *.normbgcolor: #282a36
 *.normfgcolor: #f8f8f2
 *.selbgcolor: #caa9fa
