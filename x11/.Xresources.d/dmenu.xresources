@@ -2,7 +2,7 @@
 ! dmenu config
 !-----------
 
-dmenu*font: Hack Nerd Font:size=14
+dmenu*font: JetBrainsMono Nerd Font:size=14
 dmenu*normbgcolor: #282a36
 dmenu*normfgcolor: #f8f8f2
 dmenu*selbgcolor: #caa9fa
