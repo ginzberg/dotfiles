@@ -32,7 +32,6 @@ window#waybar {
 
 #workspaces button {
   padding: 0 5px;
-  background: transparent;
   color: @foreground;
   margin: 0.25em;
 }

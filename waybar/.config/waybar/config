@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "modules-left": ["hyprland/workspaces"],
-  "modules-right": ["gamemode","wireplumber","clock","tray"],
+  "modules-right": ["gamemode","custom/pacman","wireplumber","clock","tray"],
 
   "hyprland/workspaces": {
     "all-outputs": false,
@@ -50,5 +50,14 @@
   "tray": {
     "icon-size": 21,
     "spacing":10
-    }
+  },
+
+  "custom/pacman": {
+    "format": "{}  ",
+    "interval": 3600,                     // every hour
+    "exec": "checkupdates | wc -l",       // # of updates
+    "exec-if": "exit 0",                  // always run; consider advanced run conditions
+    "on-click": "kitty -e sudo pacman -Syu; pkill -SIGRTMIN+1 waybar", // update system
+    "signal": 1
+  }
 }
