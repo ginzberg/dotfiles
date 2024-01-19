@@ -1,0 +1,66 @@
+@define-color black      #000000;
+@define-color background #282a36;
+@define-color foreground #f8f8f2;
+@define-color red        #ff5555;
+@define-color lt-red     #ff6e67;
+@define-color green      #50fa7b;
+@define-color lt-green   #5af783;
+@define-color yellow     #f1fa8c;
+@define-color lt-yellow  #f4f99d;
+@define-color purple     #bd93f9;
+@define-color lt-purple  #caa9fa;
+@define-color magenta    #ff79c6;
+@define-color lt-magenta #ff92d0;
+@define-color blue       #8be9fd;
+@define-color lt-blue    #9aedfe;
+@define-color dk-grey    #4d4d4d;
+@define-color grey       #bfbfbf;
+@define-color lt-grey    #e6e6e6;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 16px;
+    min-height: 0;
+  }
+
+window#waybar {
+  background: rgba(43, 48, 59, 0.5);
+  color: @foreground;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background: transparent;
+  color: @foreground;
+  margin: 0.25em;
+}
+
+#workspaces button.empty {
+  color: @dk-grey;
+}
+
+#workspaces button.visible {
+  color: @foreground;
+}
+
+#workspaces button.active {
+  color: @purple;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
+
+#tray {
+  padding: 0 5px;
+}
+
+#clock {
+  padding: 0 5px;
+}
+
+#wireplumber {
+  padding: 0 10px;
+}
