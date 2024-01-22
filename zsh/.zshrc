@@ -156,7 +156,7 @@ fi
 
 # bemenu
 export BEMENU_OPTS="\
- --fn 'monospace 16'\
+ --fn 'san serif 14'\
  --tb '#6272a4'\
  --tf '#f8f8f2'\
  --fb '#282a36'\

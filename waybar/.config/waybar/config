@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "modules-left": ["hyprland/workspaces"],
-  "modules-right": ["gamemode","custom/pacman","wireplumber","clock","tray"],
+  "modules-right": ["gamemode","wireplumber","clock","tray"],
 
   "hyprland/workspaces": {
     "all-outputs": false,
