@@ -19,6 +19,13 @@ window#waybar {
   margin: 0.25em;
 }
 
+#workspaces button:hover {
+  box-shadow: none;
+  text-shadow: none;
+  background: none;
+  transition: none;
+}
+
 #workspaces button.empty {
   color: @dk-grey;
 }
