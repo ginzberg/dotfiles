@@ -79,8 +79,6 @@ plugins=(
 )
 
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -153,23 +151,4 @@ if [ "$TERM" = "linux" ]; then
 else 
  ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8"
 fi
-
-# bemenu
-export BEMENU_OPTS="\
- --fn 'san serif 14'\
- --tb '#6272a4'\
- --tf '#f8f8f2'\
- --fb '#282a36'\
- --ff '#f8f8f2'\
- --nb '#282a36'\
- --nf '#6272a4'\
- --hb '#44475a'\
- --hf '#50fa7b'\
- --sb '#44475a'\
- --sf '#50fa7b'\
- --scb '#282a36'\
- --scf '#ff79c6'"
-
-export BEMENU_BACKEND="wayland"
-
-export KITTY_ENABLE_WAYLAND=1
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

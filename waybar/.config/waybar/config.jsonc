@@ -8,6 +8,7 @@
   ],
   "modules-right": [
     "gamemode",
+    "custom/audio_idle_inhibitor",
     "wireplumber",
     "clock",
     "tray"
@@ -25,7 +26,8 @@
     "~/.config/waybar/modules/workspaces.jsonc",
     "~/.config/waybar/modules/clock.jsonc",
     "~/.config/waybar/modules/tray.jsonc",
-    "~/.config/waybar/modules/packages.jsonc"
+    "~/.config/waybar/modules/packages.jsonc",
+    "~/.config/waybar/modules/audio_idle_inhibitor.jsonc"
   ]
 //   "hyprland/workspaces": {
 //     "all-outputs": false,
