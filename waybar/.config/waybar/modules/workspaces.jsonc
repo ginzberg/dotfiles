@@ -2,17 +2,17 @@
   "hyprland/workspaces": {
     "all-outputs": false,
     "active-only": false, 
-    "format": "{name}",
+    "format": "{icon}",
     "format-icons": {
     "1":  "",
-    "2":  "󰙯", //bind to left-monitor
-    "3":  "",
-    "4":  "", //bind to left-monitor
-    "5":  "󰓓",
-    "6":  "", //bind to left-monitor
-    "7":  "",
+    "2":  "",
+    "3":  "󰓓",
+    "4":  "",
+    "5":  "",
+    "6":  "󰙯", //bind to left-monitor
+    "7":  "", //bind to left-monitor
     "8":  "", //bind to left-monitor
-    "9":  "",
+    "9":  "", //bind to left-monitor
     "10": "󰢹" //bind to left-monitor
 //       "11": "1",
 //       "12": "2",
@@ -26,9 +26,10 @@
 //       "20": "10",
 //        "active": "",
 //        "default": ""
-    }
-//       "persistent-workspaces": {
-//         "*": 5
-//       }
+    },
+    "persistent-workspaces": {
+      "DP-2": [ 1, 2, 3, 4, 5 ],
+      "DP-3": [ 6, 7, 8, 9, 10 ],
+       }
     }
 }
