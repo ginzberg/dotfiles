@@ -53,3 +53,7 @@ window#waybar {
 #wireplumber {
   padding: 0 10px;
 }
+
+#custom-audio_idle_inhibitor {
+  padding: 0 10px;
+}
