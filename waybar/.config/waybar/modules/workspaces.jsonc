@@ -2,7 +2,7 @@
   "hyprland/workspaces": {
     "all-outputs": false,
     "active-only": false, 
-    "format": "{icon}",
+    "format": "{name} {icon}",
     "format-icons": {
     "1":  "",
     "2":  "",
