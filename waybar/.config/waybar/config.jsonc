@@ -8,7 +8,7 @@
   ],
   "modules-right": [
     "gamemode",
-    "custom/audio_idle_inhibitor",
+    // "custom/audio_idle_inhibitor",
     "wireplumber",
     "clock",
     "tray"
