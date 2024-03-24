@@ -4,6 +4,6 @@
 # fi
 
 # Hyprland
-# if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-#   Hyprland 
-# fi
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+  Hyprland 
+fi

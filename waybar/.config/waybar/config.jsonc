@@ -8,25 +8,19 @@
   ],
   "modules-right": [
     "gamemode",
+    // "custom/pacman",
     // "custom/audio_idle_inhibitor",
-    "wireplumber",
+    "pulseaudio",
     "clock",
     "tray"
   ],
-
-  "group/hardware": {
-    "orientation": "horizontal",
-    "modules": [
-      "cpu",
-      "memory"
-    ]
-  },
 
   "include": [
     "~/.config/waybar/modules/workspaces.jsonc",
     "~/.config/waybar/modules/clock.jsonc",
     "~/.config/waybar/modules/tray.jsonc",
-    "~/.config/waybar/modules/packages.jsonc",
-    "~/.config/waybar/modules/audio_idle_inhibitor.jsonc"
+ //   "~/.config/waybar/modules/audio_idle_inhibitor.jsonc",
+ //   "~/.config/waybar/modules/packages.jsonc",
+ //   "~/.config/waybar/modules/pacman.jsonc"
   ]
 }
