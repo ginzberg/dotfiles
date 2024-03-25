@@ -3,7 +3,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "san serif";
+    font-family: Inter, Noto Sans, Hack Nerd Font, sans-serif;
     font-size: 14px;
     min-height: 0;
   }
