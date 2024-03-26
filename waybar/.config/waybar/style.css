@@ -54,6 +54,10 @@ window#waybar {
   padding: 0 10px;
 }
 
+#pulseaudio {
+  padding: 0 10px;
+}
+
 #custom-audio_idle_inhibitor {
   padding: 0 10px;
 }
