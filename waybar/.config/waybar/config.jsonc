@@ -8,6 +8,7 @@
   ],
   "modules-right": [
     "gamemode",
+    "idle_inhibitor",
     // "custom/pacman",
     // "custom/audio_idle_inhibitor",
     // "wireplumber",
@@ -20,9 +21,9 @@
     "~/.config/waybar/modules/workspaces.jsonc",
     "~/.config/waybar/modules/clock.jsonc",
     "~/.config/waybar/modules/tray.jsonc",
-    "~/.config/waybar/modules/pulseaudio.jsonc"
+    "~/.config/waybar/modules/pulseaudio.jsonc",
+     "~/.config/waybar/modules/idle_inhibitor.jsonc"
     // "~/.config/waybar/modules/pacman.jsonc"
- //   "~/.config/waybar/modules/idle_inhibitor.jsonc"
  //   "~/.config/waybar/modules/audio_idle_inhibitor.jsonc",
  //   "~/.config/waybar/modules/packages.jsonc",
   ]
